@@ -1,17 +1,16 @@
 /* Стилизация аккордеона */
-.container{
-    margin: 0 auto;
+.accordeon{
     width: 730px;
    font-family: 'Inter';
 
 }
-summary{
+.accordeon__summary{
     padding: 24px 47px 24px 32px;
     color: #212429;
 
 }
 
-details p{
+.accordeon__description{
 margin: 0px;
 padding: 0px 48px 32px 32px;
 font-size: 16px;
@@ -21,7 +20,7 @@ color: #495057;
 
 }
 
-details{
+.accordeon__details{
 
     min-height: 72px;
 border: 1px solid #ACB5BD;
@@ -30,6 +29,6 @@ border-radius: 8px;
 
 }
 
-details ~ details{
+.accordeon__details ~ .accordeon__details{
     margin-top: 8px;
 }
