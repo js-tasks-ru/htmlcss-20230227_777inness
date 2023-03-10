@@ -1,15 +1,15 @@
 /* Стилизация кнопки */
 /* Стилизация кнопки */
 .button{
-    padding: 14px 65px;
+    padding: 15px 65px 14px;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: #fff;
+    color: var(--white);
     cursor: pointer;
     border: none;
     border-radius: 8px;
-    
+    font-family: 'Roboto';
     }
     
     .button_primary{
@@ -40,9 +40,8 @@
     color: var(--grey-4);
     }
     .button:disabled{
-        pointer-events: none;
+pointer-events: none;
     opacity: 0.5;
-    cursor: default;
     }
     
     
