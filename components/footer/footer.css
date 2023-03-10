@@ -1,5 +1,31 @@
 .footer{
-    height: 384px;
-    background-color: #FFF;
-    padding: 72px 383px 136px 417px;
+    background-color: var(--white);
+    text-align: center;
+    color: #212429;
+    font-family: 'Inter';
+    font-style: normal;
+    
 }
+.footer__title{
+font-size: 38px;
+line-height: 48px;
+margin:0px;
+padding-top: 72px;
+padding-bottom: 32px;
+
+
+}
+.footer__description p{
+font-size: 16px;
+line-height: 24px;
+margin: 0;
+font-weight: 400;
+
+}
+.footer__description{
+    max-width: 645px;
+    margin: 0 auto;
+    padding-bottom: 136px;
+}
+
+
