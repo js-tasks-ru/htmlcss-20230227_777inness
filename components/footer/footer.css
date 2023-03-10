@@ -1,10 +1,9 @@
 .footer{
-    background-color: var(--white);
-    text-align: center;
-    color: #212429;
-    font-family: 'Inter';
-    font-style: normal;
-    
+background-color: var(--white);
+text-align: center;
+color: #212429;
+font-family: 'Inter';
+font-style: normal;    
 }
 .footer__title{
 font-size: 38px;
@@ -12,20 +11,17 @@ line-height: 48px;
 margin:0px;
 padding-top: 72px;
 padding-bottom: 32px;
-
-
 }
-.footer__description p{
+
+.footer__description{
+ max-width: 645px;
+padding-bottom: 136px;
 font-size: 16px;
 line-height: 24px;
 margin: 0;
 font-weight: 400;
+display: inline-block
 
-}
-.footer__description{
-    max-width: 645px;
-    margin: 0 auto;
-    padding-bottom: 136px;
 }
 
 
