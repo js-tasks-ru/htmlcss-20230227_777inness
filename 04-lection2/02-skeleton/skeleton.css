@@ -1,0 +1,45 @@
+@import '../../assets/css/main.css';
+
+
+.skeleton{
+    margin: 0 auto;
+    width: 579px;
+    height: 192px;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 24px 40px 32px 24px;
+    box-sizing: border-box;
+}
+.skeleton__header{
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.skeleton__image{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: var(--grey-2);
+    
+}
+.skeleton__title{
+    width: 172px;
+    height: 20px;
+    background-color: var(--grey-2);
+    
+}
+.skeleton__description{
+    width: 257px;
+    height: 20px;
+    background-color: var(--grey-2);
+}
+
+.skeleton__text{
+    width: 515px;
+    height: 20px;
+    background-color: var(--grey-2);
+}
