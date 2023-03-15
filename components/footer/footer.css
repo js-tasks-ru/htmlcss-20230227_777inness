@@ -9,19 +9,24 @@ font-style: normal;
 font-size: 38px;
 line-height: 48px;
 margin:0px;
-padding-top: 72px;
-padding-bottom: 32px;
+margin-top: 72px;
+
 }
 
 .footer__description{
  max-width: 645px;
-padding-bottom: 136px;
+
 font-size: 16px;
 line-height: 24px;
 margin: 0;
 font-weight: 400;
-display: inline-block
+display: inline-block;
+margin: 0 auto;
 
+}
+.footer__text{
+    margin-bottom: 136px;
+    margin-top: 32px;
 }
 
 

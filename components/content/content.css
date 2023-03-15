@@ -1,12 +1,9 @@
-@import '../../assets/css/main.css';
-@import '../container/container.css';
-
 .content{
     padding: 68px 0 204px 0;
     background-color: var(--grey-1);
 
 }
-.content-card{
+.content__card{
     height: 367px;
     width: 350px;
 
@@ -15,10 +12,8 @@
     background-color: var(--white);
 
 }
-.content-preview{
+.content__preview{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
   
