@@ -1,6 +1,6 @@
 
 .histogram{
-    width: 24.6%;
+
     padding: 16px 24px 24px 24px;
     font-size: 16px;
     line-height: 24px;
@@ -16,14 +16,12 @@
 }
 .histogram__title{
 opacity: 0.8;
-margin:0;
 padding: 6px;
 }
 
 .histogram__value{
     font-size: 20px;
     line-height: 26px;
-    margin:0;
     padding-bottom: 39px;
 
 
@@ -44,7 +42,7 @@ padding: 6px;
 
 .histogram__image{
     display: flex;
-   justify-content: space-between;
+gap: 1px;
    height: 50px;
    align-items: flex-end;
 
