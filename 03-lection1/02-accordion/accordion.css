@@ -8,7 +8,7 @@
 .accordeon__details{
 border: 1px solid #ACB5BD;
 border-radius: 8px;
-padding: 24px 47px 23px 24px;
+padding: 24px 32px;
 
 
 
@@ -29,7 +29,6 @@ margin: 0px;
 font-size: 16px;
 line-height: 24px;
 color: #495057;
-padding-bottom: 32px;
 padding-top: 16px;
 font-family: 'Inter';
 
@@ -38,4 +37,7 @@ font-family: 'Inter';
 
 .accordeon__details ~ .accordeon__details{
     margin-top: 8px;
+}
+.accordeon__details[open] .accordeon__details{
+    padding-bottom: 32px;
 }
