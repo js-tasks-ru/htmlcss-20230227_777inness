@@ -1,3 +1,150 @@
+
+
+.histogram{
+
+    padding: 16px 24px 24px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Inter';
+    font-weight: 400;
+    display: flex;
+  flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+
+ 
+}
+.histogram__title{
+opacity: 0.8;
+padding: 6px;
+}
+
+.histogram__value{
+    font-size: 20px;
+    line-height: 26px;
+    padding-bottom: 39px;
+
+
+}
+.histogram__link{
+    color: var(--blue);
+    margin-top: 3px;
+}
+.histogram__info{
+    display: flex;
+    flex-direction: column;
+}
+.histogram__details{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.histogram__image{
+    display: flex;
+gap: 1px;
+   height: 50px;
+   align-items: flex-end;
+
+}
+.histogram__slice{
+ flex-basis: 9px;
+    background-color: var(--blue);
+}
+
+.histogram__slice_1{
+    height: 100%;
+}
+.histogram__slice_2{
+    height: 70%;
+}
+.histogram__slice_3{
+    height: 44%;
+}
+.histogram__slice_4{
+    height: 78%;
+}
+.histogram__slice_5{
+    height: 44%;
+}
+.histogram__slice_6{
+    height: 56%;
+}
+.histogram__slice_7{
+    height: 89%;
+}
+.histogram__slice_8{
+    height: 34%;
+}
+.histogram__slice_9{
+    height: 21%;
+}
+
+.histogram__slice_10{
+    height: 65%;
+}
+.histogram__slice_11{
+    height: 66%;
+}
+.histogram__slice_12{
+    height: 90%;
+}
+.histogram__slice_13{
+    height: 100%;
+}
+.histogram__slice_14{
+    height: 24%;
+}
+.histogram__slice_15{
+    height: 14%;
+}
+.histogram__slice_16{
+    height: 30%;
+}
+.histogram__slice_17{
+    height: 23%;
+}
+.histogram__slice_18{
+    height: 67%;
+}
+.histogram__slice_19{
+    height: 89%;
+}
+.histogram__slice_20{
+    height: 25%;
+}
+.histogram__slice_21{
+    height: 45%;
+}
+.histogram__slice_22{
+    height: 89%;
+}
+.histogram__slice_23{
+    height: 30%;
+}
+.histogram__slice_24{
+    height: 45%;
+}
+.histogram__slice_25{
+    height: 78%;
+}
+.histogram__slice_26{
+    height: 60%;
+}
+.histogram__slice_27{
+    height: 50%;
+}
+.histogram__slice_28{
+    height: 78%;
+}
+.histogram__slice_29{
+    height: 85%;
+}
+.histogram__slice_30{
+    height: 40%;
+}
+=======
 .histogram {
     width: 100%;
     border: 1px solid #ACB5BD;
@@ -57,3 +204,4 @@
     display: block;
     color: #212429;
 }
+
