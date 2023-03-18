@@ -1,0 +1,20 @@
+.content{
+    padding: 68px 0 204px 0;
+    background-color: var(--grey-1);
+
+}
+.content__card{
+    height: 367px;
+    width: 350px;
+
+}
+.card{
+    background-color: var(--white);
+
+}
+.content__preview{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  
+}
